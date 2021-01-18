@@ -1,0 +1,29 @@
+ #result,
+ #loading {
+     display: none;
+ }
+
+ body{
+     background-image: url(/image/background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .resultPage{
+     text-align: center;
+ }
+h1,
+#result {
+    padding: 10%;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bold;
+    text-align: center;
+}
+.loading{
+    align-items: center;
+    padding-left: 10px;
+}
+#result h1{
+    color: rgb(174, 7, 252);
+    font-size: 40px;
+}
